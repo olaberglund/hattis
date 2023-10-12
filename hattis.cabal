@@ -25,7 +25,7 @@ executable hattis
     main-is:          Main.hs
 
     -- Modules included in this executable, other than Main.
-    other-modules: Espresso, Abracadabra, TakeTwoStones, Triarea, Echo, FizzBuzz, Parking, RailRoad
+    other-modules: Espresso, Abracadabra, TakeTwoStones, Triarea, Echo, FizzBuzz, Parking, Railroad, Hardware
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
@@ -33,5 +33,6 @@ executable hattis
                     , containers
                     , text
                     , split
+                    , parsec
     hs-source-dirs:   app
     default-language: Haskell2010
