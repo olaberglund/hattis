@@ -1,6 +1,6 @@
 {-# LANGUAGE TupleSections #-}
 
-module Main where
+module Hardware where
 
 import Control.Arrow
 import qualified Data.Map as M
