@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cat > Main.hs <<- EOM
+cat > ./app/Main.hs <<- EOM
 module Main where
 
 main :: IO ()
