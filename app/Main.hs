@@ -1,6 +1,7 @@
 module Main where
 
 import Control.Arrow ((>>>))
+import Data.List (unfoldr)
 
 main :: IO ()
 main =
@@ -9,9 +10,8 @@ main =
 
 solve :: [Int] -> String
 solve xs =
-  let (deg, next) = nextDegVal (0, 0) xs
-   in unwords $ map show [deg, next]
+  let ds = diffs xs
+   in unwords $ map show [length ds - 1, sum (map last ds)]
   where
-    nextDegVal :: (Int, Int) -> [Int] -> (Int, Int)
-    nextDegVal (deg, lst) xs | and $ zipWith (==) xs (tail xs) = (deg, lst + last xs)
-    nextDegVal (deg, lst) xs = nextDegVal (deg + 1, lst + last xs) (zipWith subtract xs (tail xs))
+    diffs xs | and $ zipWith (==) xs (tail xs) = [xs]
+    diffs xs = xs : diffs (zipWith subtract xs (tail xs))
