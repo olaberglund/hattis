@@ -1,4 +1,4 @@
-module ExactlyEletrical where
+module ExactlyElectrical where
 
 import Control.Arrow ((>>>))
 
