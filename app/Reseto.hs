@@ -2,6 +2,7 @@
 
 module Reseto where
 
+import Data.List (unfoldr)
 import Data.Vector (Vector, (!))
 import qualified Data.Vector as V
 
@@ -18,3 +19,13 @@ cross xs k =
    in if k > len - 1
         then cross no (k - len)
         else yes ! k
+
+-- an alternative solution, from: https://discourse.haskell.org/t/how-lazy-is-this-kattis-solution-reseto/8090/5
+-- TODO: grok unfoldr
+
+reseto' :: Int -> Int -> Int
+reseto' n k = V.concat (unfoldr step (V.enumFromTo 2 n)) V.! (k - 1)
+  where
+    step xs
+      | V.null xs = Nothing
+      | otherwise = Just $ V.partition ((== 0) . (`mod` V.head xs)) xs
