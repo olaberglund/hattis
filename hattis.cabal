@@ -41,6 +41,7 @@ executable hattis
                    , CalculusOfAda
                    , Reseto
                    , Geppetto
+                   , Tildes
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
