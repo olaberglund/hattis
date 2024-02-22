@@ -7,4 +7,4 @@ Table of solved problems:
 
 | Problem | Link                                  |
 | ------- | ------------------------------------- |
-| Tildes  | [Tildes](./tree/master/app/Tildes.hs) |
+| Tildes  | [Tildes](./app/Tildes.hs) |
