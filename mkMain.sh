@@ -3,6 +3,9 @@
 cat > ./app/Main.hs <<- EOM
 module Main where
 
+import Control.Arrow ((>>>))
+
 main :: IO ()
-main = interact undefined
+main = interact \$
+  lines >>>
 EOM
