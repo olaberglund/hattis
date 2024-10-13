@@ -17,6 +17,7 @@ Table of solved problems:
 | Geppetto.hs          | [Geppetto.hs](./src/Geppetto.hs)                   |
 | Hardware.hs          | [Hardware.hs](./src/Hardware.hs)                   |
 | Julemost.hs          | [Julemost.hs](./src/Julemost.hs)                   |
+| KeepItCool           | [KeepItCool.hs](./src/KeepItCool.hs)               |
 | Knitpicking          | [Knitpicking.hs](./src/Knitpicking.hs)             |
 | Kolone               | [Kolone.hs](./src/Kolone.hs)                       |
 | Kutevi               | [Kutevi.hs](./src/Kutevi.hs)                       |

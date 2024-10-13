@@ -25,6 +25,7 @@ executable hattis
     Geppetto
     Hardware
     Julemost
+    KeepItCool
     Knitpicking
     Kolone
     Kutevi
@@ -47,6 +48,7 @@ executable hattis
     , parsec
     , scanner
     , split
+    , Stack
     , text
     , vector
 
@@ -54,5 +56,4 @@ executable hattis
   default-language:   Haskell2010
   default-extensions:
     LambdaCase
-    OverloadedRecordDot
     OverloadedStrings
