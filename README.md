@@ -26,6 +26,7 @@ Table of solved problems:
 | Password.hs          | [Password.hs](./src/Password.hs)                   |
 | Railroad.hs          | [Railroad.hs](./src/Railroad.hs)                   |
 | Reseto.hs            | [Reseto.hs](./src/Reseto.hs)                       |
+| RevereseRot.hs            | [RevereseRot.hs](./src/RevereseRot.hs)                       |
 | TakeTwoStones.hs     | [TakeTwoStones.hs](./src/TakeTwoStones.hs)         |
 | ThePlank.hs          | [ThePlank.hs](./src/ThePlank.hs)                   |
 | Tildes.hs            | [Tildes.hs](./src/Tildes.hs)                       |
