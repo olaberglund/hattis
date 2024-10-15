@@ -25,6 +25,7 @@ Table of solved problems:
 | Lektira.hs           | [Lektira.hs](./src/Lektira.hs)                     |
 | Parking.hs           | [Parking.hs](./src/Parking.hs)                     |
 | Password.hs          | [Password.hs](./src/Password.hs)                   |
+| PaulEigon.hs           | [PaulEigon.hs](./src/PaulEigon.hs)                     |
 | PizzaCrust.hs          | [PizzaCrust.hs](./src/PizzaCrust.hs)                   |
 | Railroad.hs          | [Railroad.hs](./src/Railroad.hs)                   |
 | Reseto.hs            | [Reseto.hs](./src/Reseto.hs)                       |
