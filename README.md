@@ -23,6 +23,7 @@ Table of solved problems:
 | Kolone               | [Kolone.hs](./src/Kolone.hs)                       |
 | Kutevi               | [Kutevi.hs](./src/Kutevi.hs)                       |
 | Lektira.hs           | [Lektira.hs](./src/Lektira.hs)                     |
+| Ostgotska.hs           | [Ostgotska.hs](./src/Ostgotska.hs)                     |
 | Parking.hs           | [Parking.hs](./src/Parking.hs)                     |
 | Password.hs          | [Password.hs](./src/Password.hs)                   |
 | PaulEigon.hs           | [PaulEigon.hs](./src/PaulEigon.hs)                     |
