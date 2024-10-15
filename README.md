@@ -8,6 +8,7 @@ Table of solved problems:
 | Problem              | Link                                               |
 | -------------------- | -------------------------------------------------- |
 | Abracadabra.hs       | [Abracadabra.hs](./src/Abracadabra.hs)             |
+| ARationalSequenceTake3.hs       | [ARationalSequenceTake3.hs](./src/ARationalSequenceTake3.hs)             |
 | CalculusOfAda.hs     | [CalculusOfAda.hs](./src/CalculusOfAda.hs)         |
 | DealOfTheDay.hs      | [DealOfTheDay.hs](./src/DealOfTheDay.hs)           |
 | Echo.hs              | [Echo.hs](./src/Echo.hs)                           |
@@ -24,6 +25,7 @@ Table of solved problems:
 | Lektira.hs           | [Lektira.hs](./src/Lektira.hs)                     |
 | Parking.hs           | [Parking.hs](./src/Parking.hs)                     |
 | Password.hs          | [Password.hs](./src/Password.hs)                   |
+| PizzaCrust.hs          | [PizzaCrust.hs](./src/PizzaCrust.hs)                   |
 | Railroad.hs          | [Railroad.hs](./src/Railroad.hs)                   |
 | Reseto.hs            | [Reseto.hs](./src/Reseto.hs)                       |
 | RevereseRot.hs            | [RevereseRot.hs](./src/RevereseRot.hs)                       |
