@@ -23,6 +23,7 @@ Table of solved problems:
 | Kolone                    | [Kolone.hs](./src/Kolone.hs)                                 |
 | Kutevi                    | [Kutevi.hs](./src/Kutevi.hs)                                 |
 | Lektira.hs                | [Lektira.hs](./src/Lektira.hs)                               |
+| Mjehuric.hs.hs                   | [Mjehuric.hs.hs](./src/Mjehuric.hs.hs)                                     |
 | Mult.hs                   | [Mult.hs](./src/Mult.hs)                                     |
 | Ostgotska.hs              | [Ostgotska.hs](./src/Ostgotska.hs)                           |
 | Parking.hs                | [Parking.hs](./src/Parking.hs)                               |
