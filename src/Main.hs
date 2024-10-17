@@ -3,7 +3,6 @@
 module Main where
 
 import           Control.Arrow ((>>>))
-import           Data.List     (sort, unfoldr)
 
 main :: IO ()
 main =
@@ -12,21 +11,16 @@ main =
             >>> head
             >>> words
             >>> map read
-            >>> goran
-            >>> filter (not . null)
+            >>> ([],)
+            >>> iterate bubbleStep
+            >>> take 6
+            >>> map (uncurry (<>))
             >>> map (unwords . map show)
             >>> unlines
 
-goran :: [Int] -> [[Int]]
-goran = unfoldr step . ([],)
-  where
-    step :: ([Int], [Int]) -> Maybe ([Int], ([Int], [Int]))
-    step xs = do
-        (prev, x : y : rest) <- Just xs
-        [l, g] <- Just $ sort [x, y]
-        pure
-            ( if [l, g] == [x, y]
-                then []
-                else prev <> [l, g] <> rest
-            , (prev <> [l], g : rest)
-            )
+-- bubbleStep :: ([Int], [Int]) -> ([Int], [Int])
+bubbleStep :: ([Int], [Int]) -> ([Int], [Int])
+bubbleStep (prev, x : y : rest)
+    | x > y = (prev <> [y], x : rest)
+    | otherwise = bubbleStep (prev <> [x], y : rest)
+bubbleStep (prev, xs) = ([], prev <> xs)
