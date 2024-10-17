@@ -1,19 +1,32 @@
-module Mult where
+{-# LANGUAGE TupleSections #-}
+
+module Main where
 
 import           Control.Arrow ((>>>))
-import           Data.List     (unfoldr)
+import           Data.List     (sort, unfoldr)
 
 main :: IO ()
 main =
     interact $
         lines
-            >>> tail
+            >>> head
+            >>> words
             >>> map read
-            >>> unfoldr mult
-            >>> map show
+            >>> goran
+            >>> filter (not . null)
+            >>> map (unwords . map show)
             >>> unlines
 
-mult :: [Int] -> Maybe (Int, [Int])
-mult (n : ns) = do
-    (h : rest) <- Just $ dropWhile ((/= 0) . flip mod n) ns
-    pure (h, rest)
+goran :: [Int] -> [[Int]]
+goran = unfoldr step . ([],)
+  where
+    step :: ([Int], [Int]) -> Maybe ([Int], ([Int], [Int]))
+    step xs = do
+        (prev, x : y : rest) <- Just xs
+        [l, g] <- Just $ sort [x, y]
+        pure
+            ( if [l, g] == [x, y]
+                then []
+                else prev <> [l, g] <> rest
+            , (prev <> [l], g : rest)
+            )
