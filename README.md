@@ -24,6 +24,7 @@ Table of solved problems:
 | Kutevi                    | [Kutevi.hs](./src/Kutevi.hs)                                 |
 | Lektira.hs                | [Lektira.hs](./src/Lektira.hs)                               |
 | LineThemUp.hs                | [LineThemUp.hs](./src/LineThemUp.hs)                               |
+| MinimumScalarProduct.hs.hs                   | [MinimumScalarProduct.hs.hs](./src/MinimumScalarProduct.hs.hs)                                     |
 | Mjehuric.hs.hs                   | [Mjehuric.hs.hs](./src/Mjehuric.hs.hs)                                     |
 | Mult.hs                   | [Mult.hs](./src/Mult.hs)                                     |
 | Ostgotska.hs              | [Ostgotska.hs](./src/Ostgotska.hs)                           |
