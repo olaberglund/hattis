@@ -28,6 +28,7 @@ Table of solved problems:
 | Mjehuric.hs.hs                   | [Mjehuric.hs.hs](./src/Mjehuric.hs.hs)                                     |
 | Mult.hs                   | [Mult.hs](./src/Mult.hs)                                     |
 | MusicalScales.hs                   | [MusicalScales.hs](./src/MusicalScales.hs)                                     |
+| Nafnagift.hs                   | [Nafnagift.hs](./src/Nafnagift.hs)                                     |
 | Ostgotska.hs              | [Ostgotska.hs](./src/Ostgotska.hs)                           |
 | Parking.hs                | [Parking.hs](./src/Parking.hs)                               |
 | Password.hs               | [Password.hs](./src/Password.hs)                             |
