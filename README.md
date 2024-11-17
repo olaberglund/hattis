@@ -37,6 +37,7 @@ Table of solved problems:
 | Railroad.hs               | [Railroad.hs](./src/Railroad.hs)                             |
 | Reseto.hs                 | [Reseto.hs](./src/Reseto.hs)                                 |
 | RevereseRot.hs            | [RevereseRot.hs](./src/RevereseRot.hs)                       |
+| SecretMessage.hs            | [SecretMessage.hs](./src/SecretMessage.hs)                       |
 | Soylent.hs            | [Soylent.hs](./src/Soylent.hs)                       |
 | TakeTwoStones.hs          | [TakeTwoStones.hs](./src/TakeTwoStones.hs)                   |
 | ThePlank.hs               | [ThePlank.hs](./src/ThePlank.hs)                             |
