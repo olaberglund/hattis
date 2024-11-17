@@ -34,6 +34,7 @@ Table of solved problems:
 | Password.hs               | [Password.hs](./src/Password.hs)                             |
 | PaulEigon.hs              | [PaulEigon.hs](./src/PaulEigon.hs)                           |
 | PizzaCrust.hs             | [PizzaCrust.hs](./src/PizzaCrust.hs)                         |
+| Prva.hs             | [Prva.hs](./src/Prva.hs)                         |
 | Railroad.hs               | [Railroad.hs](./src/Railroad.hs)                             |
 | Reseto.hs                 | [Reseto.hs](./src/Reseto.hs)                                 |
 | RevereseRot.hs            | [RevereseRot.hs](./src/RevereseRot.hs)                       |
