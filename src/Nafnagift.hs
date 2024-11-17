@@ -11,13 +11,13 @@ main :: IO ()
 main = interact $ lines >>> (\[m, n] -> solve m n)
 
 solve :: (Eq a) => [a] -> [a] -> [a]
-solve m n = toList $ lcs (0, 0)
+solve m n = toList $ scs (0, 0)
  where
   rng = ((0, 0), (length m, length n))
   m' = listArray (0, length m) m
   n' = listArray (0, length n) n
 
-  lcs = memo rng $ \(i, j) ->
+  scs = memo rng $ \(i, j) ->
     let x = m' ! i
         y = n' ! j
         i' = i + 1
@@ -25,8 +25,8 @@ solve m n = toList $ lcs (0, 0)
      in if inRange rng (i', j')
           then
             if x == y
-              then x <| lcs (i', j')
-              else minimumBy (comparing length) [y <| lcs (i, j'), x <| lcs (i', j)]
+              then x <| scs (i', j')
+              else minimumBy (comparing length) [y <| scs (i, j'), x <| scs (i', j)]
           else Seq.fromList $ drop i m <> drop j n
 
 tabulate :: (Ix i) => (i, i) -> (i -> e) -> Array i e
