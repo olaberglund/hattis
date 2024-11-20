@@ -33,6 +33,7 @@ Table of solved problems:
 | Parking.hs                 | [Parking.hs](./src/Parking.hs)                                 |
 | Password.hs                | [Password.hs](./src/Password.hs)                               |
 | PaulEigon.hs               | [PaulEigon.hs](./src/PaulEigon.hs)                             |
+| PervasiveHeartMonitor.hs               | [PervasiveHeartMonitor.hs](./src/PervasiveHeartMonitor.hs)                             |
 | PizzaCrust.hs              | [PizzaCrust.hs](./src/PizzaCrust.hs)                           |
 | PlantingTrees.hs.hs              | [PlantingTrees.hs.hs](./src/PlantingTrees.hs.hs)                           |
 | Prva.hs                    | [Prva.hs](./src/Prva.hs)                                       |
