@@ -1,6 +1,6 @@
 {-# LANGUAGE OverloadedStrings #-}
 
-module Main where
+module Prva where
 
 import Control.Arrow ((>>>))
 import Data.List (sort)
