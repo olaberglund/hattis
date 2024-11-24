@@ -32,6 +32,7 @@ Table of solved problems:
 | Ostgotska.hs               | [Ostgotska.hs](./src/Ostgotska.hs)                             |
 | Parking.hs                 | [Parking.hs](./src/Parking.hs)                                 |
 | Password.hs                | [Password.hs](./src/Password.hs)                               |
+| Patuljci.hs                | [Patuljci.hs](./src/Patuljci.hs)                               |
 | PaulEigon.hs               | [PaulEigon.hs](./src/PaulEigon.hs)                             |
 | PervasiveHeartMonitor.hs               | [PervasiveHeartMonitor.hs](./src/PervasiveHeartMonitor.hs)                             |
 | PizzaCrust.hs              | [PizzaCrust.hs](./src/PizzaCrust.hs)                           |
